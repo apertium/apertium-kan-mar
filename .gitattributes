@@ -1,0 +1,20 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/aclocal.m4 -text
+/apertium-kan-mar.kan-mar.dix -text
+/apertium-kan-mar.kan-mar.lrx -text
+/apertium-kan-mar.kan-mar.t1x -text
+/apertium-kan-mar.kan-mar.t2x -text
+/apertium-kan-mar.kan-mar.t3x -text
+/apertium-kan-mar.mar-kan.lrx -text
+/apertium-kan-mar.mar-kan.t1x -text
+/apertium-kan-mar.mar-kan.t2x -text
+/apertium-kan-mar.mar-kan.t3x -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
