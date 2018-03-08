@@ -1,0 +1,2 @@
+
+  lt-proc -w '/home/invo/aper/apertium-kan-mar/kan-mar.automorf.bin' | cg-proc -w -t '/home/invo/aper/apertium-kan-mar/kan-mar.rlx.bin' 

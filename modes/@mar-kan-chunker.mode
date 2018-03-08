@@ -1,0 +1,2 @@
+
+  lt-proc -w '/home/invo/aper/apertium-kan-mar/mar-kan.automorf-untrimmed.bin' | cg-proc -w '/home/invo/aper/apertium-kan-mar/mar-kan.rlx.bin' | apertium-tagger -g $2 '/home/invo/aper/apertium-kan-mar/mar-kan.prob' | apertium-pretransfer| lt-proc -b '/home/invo/aper/apertium-kan-mar/mar-kan.autobil.bin' | lrx-proc '/home/invo/aper/apertium-kan-mar/mar-kan.autolex.bin' | apertium-transfer -b -t '/home/invo/aper/apertium-kan-mar/apertium-kan-mar.mar-kan.t1x'  '/home/invo/aper/apertium-kan-mar/mar-kan.t1x.bin' 
