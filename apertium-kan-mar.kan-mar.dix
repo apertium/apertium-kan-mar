@@ -44,6 +44,8 @@
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
     <sdef n="un"              c="No gender"/>
+    <sdef n="mfn"             c="Masculine/Feminine/Neuter"/>
+    <sdef n="mf"             c="Masculine/Feminine"/>
 
     <sdef n="sg"              c="Singular"/>
     <sdef n="du"              c="Dual"/>
@@ -97,8 +99,36 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>ಮನೆ<s n="n"/></l><r>घर<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ಮನೆ<s n="n"/><s n="nt"/></l><r>घर<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ಉದ್ಯಾನ<s n="n"/><s n="nt"/></l><r>बाग<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ಹವಾಮಾನ<s n="n"/><s n="nt"/></l><r>हवामान<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ಹುಡುಗ<s n="n"/><s n="m"/></l><r>मुलगा<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ವರ್ಷ<s n="n"/><s n="nt"/></l><r>वर्ष<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ನಾಯಿ<s n="n"/><s n="nt"/></l><r>कुत्रा<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ನಾಯಿ<s n="n"/><s n="nt"/></l><r>कुत्री<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ಬೆಕ್ಕು<s n="n"/><s n="nt"/></l><r>मांजर<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ತಾಯ<s n="n"/><s n="f"/></l><r>आई<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ಕಿಟಕಿ<s n="n"/><s n="nt"/></l><r>खिडकी<s n="n"/><s n="f"/></r></p></e>
 
+      <e><p><l>ಒಳ್ಳೆಯದು<s n="adj"/></l><r>चांगला<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ತುಂಬಾ<s n="adj"/></l><r>खूप<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಬಿಸಿ<s n="adj"/></l><r>गरम<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ದೊಡ್ಡದು<s n="adj"/></l><r>मोठा<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+
+      <e><p><l>ಇದ್ದಾ<s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+
+      <e><p><l>ಜೇಮ್ಸ್<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></l><r>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      
+      <e><p><l>ಮೇರಿ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></l><r>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+
+
+      <e><p><l>ಎಲ್ಲಿ<s n="adv"/></l><r>कुठे<s n="adv"/></r></p></e>
+
+      <e><p><l>ಮತ್ತು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e>
+
+
+      <e><p><l>ಸಹೋದರ<s n="n"/><s n="f"/></l><r>बहीण<s n="n"/><s n="f"/></r></p></e> <!-- not able to generate plural in marathi -->
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
