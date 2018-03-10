@@ -57,7 +57,7 @@
       <program name="cg-proc -w">
         <file name="mar-kan.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -u 2 -g $2">
+      <program name="apertium-tagger -g $2">
         <file name="mar-kan.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
