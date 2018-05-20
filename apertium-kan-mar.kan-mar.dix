@@ -110,39 +110,73 @@
       <e><p><l>ತಾಯ<s n="n"/><s n="f"/></l><r>आई<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ಕಿಟಕಿ<s n="n"/><s n="nt"/></l><r>खिडकी<s n="n"/><s n="f"/></r></p></e>
 
+
+
       <e><p><l>ಒಳ್ಳೆಯದು<s n="adj"/></l><r>चांगला<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ತುಂಬಾ<s n="adj"/></l><r>खूप<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಬಿಸಿ<s n="adj"/></l><r>गरम<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ದೊಡ್ಡದು<s n="adj"/></l><r>मोठा<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>   
+
 
       <e><p><l>ಇದ್ದಾ<s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
+
+
       <e><p><l>ಜೇಮ್ಸ್<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></l><r>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       
+
+
       <e><p><l>ಮೇರಿ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></l><r>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+
+
 
 
       <e><p><l>ಎಲ್ಲಿ<s n="adv"/></l><r>कुठे<s n="adv"/></r></p></e>
       <e><p><l>ಇವತ್ತು<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
       <e><p><l>ಇಲ್ಲ<s n="adv"/></l><r>नाहीत<s n="adv"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p><l>ಹೊರಗೆ<s n="adv"/></l><r>बाहेर<s n="adv"/></r></p></e>
-
       <e><p><l>ನಂತರ<s n="adv"/></l><r>तेंव्हा<s n="adv"/></r></p></e>
 
-
       <e><p><l>ಮತ್ತು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e>
-	  <e><p><l>ಆದರೆ<s n="cnjcoo"/></l><r>पण<s n="cnjcoo"/></r></p></e>
-	  
+      <e><p><l>ಹಾಗು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
+      <e><p><l>ಅಥವ<s n="cnjcoo"/></l><r>अथवा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಆದರೆ<s n="cnjcoo"/></l><r>पण<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ವೇಳೆ<s n="cnjcoo"/></l><r>जर<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಯಾ<s n="cnjcoo"/></l><r>किंवा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ತನಕ<s n="cnjcoo"/></l><r>पर्यंत<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಇಲ್ಲದೆ<s n="cnjcoo"/></l><r>विना<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಮಾತ್ರ<s n="cnjcoo"/></l><r>केवळ<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಮುಂತಾದ<s n="cnjcoo"/></l><r>इत्यादि<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಕಾರಣ<s n="cnjcoo"/></l><r>कारण<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಏಕೆಂದರೆ<s n="cnjcoo"/></l><r>कारण<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಏಕೆಂದರೆ<s n="cnjcoo"/></l><r>म्हणजे<s n="cnjcoo"/></r></p></e>
+
 
       <e><p><l>ಅವರು<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
 
 
-      <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>	  
+
+
 
       <e><p><l>ಸಹೋದರ<s n="n"/><s n="f"/></l><r>बहीण<s n="n"/><s n="f"/></r></p></e> <!-- not able to generate plural in marathi -->
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+
+
+     <e r="RL"><p><l>۔<s n="sent"/></l><r>॥<s n="sent"/></r></p></e>
+     <e><p><l>-<s n="sent"/></l><r>-<s n="sent"/></r></p></e>
+     <e><p><l>:<s n="sent"/></l><r>:<s n="sent"/></r></p></e>
+     <e><p><l>;<s n="sent"/></l><r>;<s n="sent"/></r></p></e>
+     <e><p><l>?<s n="sent"/></l><r>?<s n="sent"/></r></p></e>
+     <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
+     <e><p><l>!<s n="sent"/></l><r>!<s n="sent"/></r></p></e>
+     <e><p><l>/<s n="sent"/></l><r>/<s n="sent"/></r></p></e>
+     <e><p><l>\<s n="sent"/></l><r>\<s n="sent"/></r></p></e>
+     <e><p><l>،<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+
+
    </section>
 </dictionary>
 
