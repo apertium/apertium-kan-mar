@@ -31,6 +31,8 @@
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
     <sdef n="res"             c="Reciprocal pronoun"/>
+    <sdef n="prox"            c="Proximate"/>
+    <sdef n="prx"             c="Proximate"/>
 
     <sdef n="det"             c="Determiner"/>
     <sdef n="pos"             c="Possessive"/>
@@ -58,6 +60,7 @@
     <sdef n="nom"             c="Nominative"/>
     <sdef n="acc"             c="Accusative"/>
     <sdef n="gen"             c="Genitive"/>
+    <sdef n="loc"             c="Locative"/>
 
     <sdef n="dem"             c="Demonstrative"/>
     <sdef n="itg"             c="Question word / interrogative"/>
@@ -109,8 +112,10 @@
       <e><p><l>ಬೆಕ್ಕು<s n="n"/><s n="nt"/></l><r>मांजर<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>ತಾಯ<s n="n"/><s n="f"/></l><r>आई<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ಕಿಟಕಿ<s n="n"/><s n="nt"/></l><r>खिडकी<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ಆಹಾರ<s n="n"/><s n="nt"/></l><r>अन्न<s n="n"/><s n="m"/></r></p></e>
 
 
+      <e><p><l>ಸಹೋದರ<s n="n"/><s n="f"/></l><r>बहीण<s n="n"/><s n="f"/></r></p></e> <!-- not able to generate plural in marathi -->
 
       <e><p><l>ಒಳ್ಳೆಯದು<s n="adj"/></l><r>चांगला<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ತುಂಬಾ<s n="adj"/></l><r>खूप<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
@@ -131,17 +136,21 @@
       <e><p><l>ಮೇರಿ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></l><r>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
 
 
-
-
+      <e><p><l>ಹೊರಗೆ<s n="adv"/></l><r>बाहेर<s n="adv"/></r></p></e>
+      <e><p><l>ಒಳಗೆ<s n="adv"/></l><r>आत<s n="adv"/></r></p></e>
       <e><p><l>ಎಲ್ಲಿ<s n="adv"/></l><r>कुठे<s n="adv"/></r></p></e>
       <e><p><l>ಇವತ್ತು<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
       <e><p><l>ಇಲ್ಲ<s n="adv"/></l><r>नाहीत<s n="adv"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
-      <e><p><l>ಹೊರಗೆ<s n="adv"/></l><r>बाहेर<s n="adv"/></r></p></e>
       <e><p><l>ನಂತರ<s n="adv"/></l><r>तेंव्हा<s n="adv"/></r></p></e>
+      
+
+
 
       <e><p><l>ಮತ್ತು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಹಾಗು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
+      <e><p><l>ಹಾಗೂ<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
       <e><p><l>ಅಥವ<s n="cnjcoo"/></l><r>अथवा<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ಅಥವಾ<s n="cnjcoo"/></l><r>अथवा<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಆದರೆ<s n="cnjcoo"/></l><r>पण<s n="cnjcoo"/></r></p></e>
       <e><p><l>ವೇಳೆ<s n="cnjcoo"/></l><r>जर<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಯಾ<s n="cnjcoo"/></l><r>किंवा<s n="cnjcoo"/></r></p></e>
@@ -154,17 +163,36 @@
       <e><p><l>ಏಕೆಂದರೆ<s n="cnjcoo"/></l><r>म्हणजे<s n="cnjcoo"/></r></p></e>
 
 
+
+
+
       <e><p><l>ಅವರು<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
 
+      <e><p><l>ನಾನು<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+
+      <e><p><l>ಇವರು<s n="prn"/><s n="mf"/><s n="pl"/><s n="nom"/><s n="p3"/><s n="prx"/></l><r>हा<s n="prn"/><s n="p3"/><s n="prox"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 
 
+      <e><p><l>ಇದು</l><r>हा</r></p></e>
 
-
-      <e><p><l>ಸಹೋದರ<s n="n"/><s n="f"/></l><r>बहीण<s n="n"/><s n="f"/></r></p></e> <!-- not able to generate plural in marathi -->
+      
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
 
 
+
+    <!-- DETERMINERS -->
+      <e><p><l>ಈ<s n="det"/><s n="p3"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+    
+
+
+
+    <!-- NUMBERS -->      
+     <e><p><l>ಒಂದು   <s n="num"/></l><r>एक<s n="num"/></r></p></e>
+
+
+
+    <!-- PUNCTUATIONS -->
      <e r="RL"><p><l>۔<s n="sent"/></l><r>॥<s n="sent"/></r></p></e>
      <e><p><l>-<s n="sent"/></l><r>-<s n="sent"/></r></p></e>
      <e><p><l>:<s n="sent"/></l><r>:<s n="sent"/></r></p></e>
@@ -174,6 +202,7 @@
      <e><p><l>!<s n="sent"/></l><r>!<s n="sent"/></r></p></e>
      <e><p><l>/<s n="sent"/></l><r>/<s n="sent"/></r></p></e>
      <e><p><l>\<s n="sent"/></l><r>\<s n="sent"/></r></p></e>
+     <e><p><l>"<s n="sent"/></l><r>"<s n="sent"/></r></p></e>
      <e><p><l>،<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
 
 
