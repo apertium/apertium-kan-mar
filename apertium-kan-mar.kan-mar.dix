@@ -27,6 +27,7 @@
     <sdef n="cog"             c="Cognomen"/>
     <sdef n="org"             c="Organisation"/>
     <sdef n="al"              c="Altres / misc proper nouns"/>
+    <sdef n="post"             c="Postpotion"/>
 
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
@@ -61,6 +62,9 @@
     <sdef n="acc"             c="Accusative"/>
     <sdef n="gen"             c="Genitive"/>
     <sdef n="loc"             c="Locative"/>
+    <sdef n="obl"             c="Obl"/>
+    <sdef n="interr"          c="Obl"/>
+    <sdef n="erg"             c="Obl"/>
 
     <sdef n="dem"             c="Demonstrative"/>
     <sdef n="itg"             c="Question word / interrogative"/>
@@ -117,12 +121,6 @@
 
       <e><p><l>ಸಹೋದರ<s n="n"/><s n="f"/></l><r>बहीण<s n="n"/><s n="f"/></r></p></e> <!-- not able to generate plural in marathi -->
 
-      <e><p><l>ಒಳ್ಳೆಯದು<s n="adj"/></l><r>चांगला<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ತುಂಬಾ<s n="adj"/></l><r>खूप<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
-      <e><p><l>ಬಿಸಿ<s n="adj"/></l><r>गरम<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
-      <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
-      <e><p><l>ದೊಡ್ಡದು<s n="adj"/></l><r>मोठा<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
-      <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>   
 
 
       <e><p><l>ಇದ್ದಾ<s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -143,8 +141,16 @@
       <e><p><l>ಇಲ್ಲ<s n="adv"/></l><r>नाहीत<s n="adv"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p><l>ನಂತರ<s n="adv"/></l><r>तेंव्हा<s n="adv"/></r></p></e>
       
+      <!-- ADJECTIVES -->
+      <e><p><l>ಪ್ರಮುಖ<s n="adj"/></l><r>मुख्य<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಒಳ್ಳೆಯದು<s n="adj"/></l><r>चांगला<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ತುಂಬಾ<s n="adj"/></l><r>खूप<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಬಿಸಿ<s n="adj"/></l><r>गरम<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ದೊಡ್ಡದು<s n="adj"/></l><r>मोठा<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>   
 
-
+      <!-- CONJUCTIONS -->
 
       <e><p><l>ಮತ್ತು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಹಾಗು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
@@ -164,31 +170,63 @@
 
 
 
+      <!-- PRONOUNS -->
+
+      <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
 
 
-      <e><p><l>ಅವರು<s n="prn"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तो<s n="det"/><s n="dist"/><s n="mfn"/><s n="pl"/><s n="obl"/>+च<s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+
+
 
       <e><p><l>ನಾನು<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
 
       <e><p><l>ಇವರು<s n="prn"/><s n="mf"/><s n="pl"/><s n="nom"/><s n="p3"/><s n="prx"/></l><r>हा<s n="prn"/><s n="p3"/><s n="prox"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 
 
+      <e><p><l>ಇದು<s n="prn"/><s n="p3"/><s n="prx"/><s n="nt"/><s n="sg"/><s n="gen"/></l><r>तो<s n="det"/></r></p></e>
+
       <e><p><l>ಇದು</l><r>हा</r></p></e>
 
-      
+      <e><p><l>ಕೆಲವು<s n="prn"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="nom"/></l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/>+ने<s n="erg"/></r></p></e>
+
+
+
+
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+
+    <!-- ADJECTIVES -->
+      <e><p><l>ಹೆಚ್ಚು<s n="adj"/></l><r>अधिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+
+
+    <!-- PRE/POSTPOISTIONS -->
+      <e><p><l>ಮೇಲೆ<s n="post"/></l><r>वरती<s n="post"/><s n="adv"/></r></p></e>
 
 
 
     <!-- DETERMINERS -->
-      <e><p><l>ಈ<s n="det"/><s n="p3"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-    
+      <!-- <e><p><l>ಈ<s n="det"/><s n="p3"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e> -->
+
+     <e><p><l>ಈ<s n="det"/><s n="p3"/><s n="prox"/><s n="mfn"/><s n="sg"/><s n="nom"/></l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+
+      <e><p><l>ಆ<s n="det"/><s n="p3"/><s n="dist"/><s n="mfn"/><s n="sg"/><s n="nom"/></l><r>तो<s n="det"/><s n="dist"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ಆ<s n="det"/><s n="p3"/><s n="dist"/><s n="mfn"/><s n="sg"/><s n="nom"/></l><r>तो<s n="det"/><s n="dist"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ಆ<s n="det"/><s n="p3"/><s n="dist"/><s n="mfn"/><s n="sg"/><s n="nom"/></l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+
+
+
 
 
 
     <!-- NUMBERS -->      
-     <e><p><l>ಒಂದು   <s n="num"/></l><r>एक<s n="num"/></r></p></e>
+     <e><p><l>ಒಂದು<s n="num"/></l><r>एक<s n="num"/></r></p></e>
+     <e><p><l>ಎರಡು<s n="num"/></l><r>दोन<s n="num"/></r></p></e>
+
+
+     <e><p><l>[0-9]+<s n="num"/></l><r>[0-9]+<s n="num"/></r></p></e>
 
 
 
