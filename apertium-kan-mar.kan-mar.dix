@@ -80,6 +80,7 @@
     <sdef n="pprs"            c="Present participle"/>
     <sdef n="pasv"            c="Passive"/>
     <sdef n="actv"            c="Active voice"/>
+    <sdef n="part" />
 
     <sdef n="sint"            c="Synthetic (of adjectives)"/>
     <sdef n="pst"             c="Positive"/>
@@ -117,21 +118,16 @@
       <e><p><l>ತಾಯ<s n="n"/><s n="f"/></l><r>आई<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ಕಿಟಕಿ<s n="n"/><s n="nt"/></l><r>खिडकी<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ಆಹಾರ<s n="n"/><s n="nt"/></l><r>अन्न<s n="n"/><s n="m"/></r></p></e>
-
-
       <e><p><l>ಸಹೋದರ<s n="n"/><s n="f"/></l><r>बहीण<s n="n"/><s n="f"/></r></p></e> <!-- not able to generate plural in marathi -->
-
-
+      <e><p><l>ಭಾರತ<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></l><r>भारत<s n="np"/><s n="top"/><s n="sg"/></r></p></e>
+      <e><p><l>ಉತ್ತರ</l><r>उत्तर</r></p></e> <!-- North -->
 
       <e><p><l>ಇದ್ದಾ<s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
-
-
       <e><p><l>ಜೇಮ್ಸ್<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></l><r>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      
-
 
       <e><p><l>ಮೇರಿ<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></l><r>मेरी<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+
 
 
       <e><p><l>ಹೊರಗೆ<s n="adv"/></l><r>बाहेर<s n="adv"/></r></p></e>
@@ -140,18 +136,31 @@
       <e><p><l>ಇವತ್ತು<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
       <e><p><l>ಇಲ್ಲ<s n="adv"/></l><r>नाहीत<s n="adv"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p><l>ನಂತರ<s n="adv"/></l><r>तेंव्हा<s n="adv"/></r></p></e>
+      <e><p><l>ಇಲ್ಲಿ<s n="adv"/></l><r>ಇಲ್ಲಿ<s n="adv"/></r></p></e>
+
       
       <!-- ADJECTIVES -->
       <e><p><l>ಪ್ರಮುಖ<s n="adj"/></l><r>मुख्य<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಮುಖ್ಯ<s n="adj"/></l><r>मुख्य<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಒಳ್ಳೆಯದು<s n="adj"/></l><r>चांगला<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ತುಂಬಾ<s n="adj"/></l><r>खूप<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಬಿಸಿ<s n="adj"/></l><r>गरम<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ದೊಡ್ಡದು<s n="adj"/></l><r>मोठा<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಶೀತ<s n="adj"/></l><r>गार<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>   
+      <e><p><l>ಅತ್ಯಂತ<s n="adj"/></l><r>सर्वाधिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>   
+      <e><p><l>ಹೆಚ್ಚಿನ<s n="adj"/></l><r>अधिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>  
+      <e><p><l>ಹೆಚ್ಚಿನ<s n="adj"/></l><r>अधिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಹೆಚ್ಚು<s n="adj"/></l><r>अधिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>  
+      <e><p><l>ಹೊಸ<s n="adj"/></l><r>नवीन<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>  
+      <e><p><l>ದೊಡ್ಡ<s n="adj"/></l><r>मोठा<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>  
+      <e><p><l>ಕಡಿಮೆ<s n="adj"/></l><r>कमी<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>  
+      <e><p><l>ವಿವಿಧ<s n="adj"/></l><r>निराळा<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>  
+
+
 
       <!-- CONJUCTIONS -->
-
+      <e><p><l>ಮಾತ್ರ<s n="cnjcoo"/></l><r>केवळ<s n="part"/></r></p></e>
       <e><p><l>ಮತ್ತು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಹಾಗು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
       <e><p><l>ಹಾಗೂ<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
@@ -162,7 +171,6 @@
       <e><p><l>ಯಾ<s n="cnjcoo"/></l><r>किंवा<s n="cnjcoo"/></r></p></e>
       <e><p><l>ತನಕ<s n="cnjcoo"/></l><r>पर्यंत<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಇಲ್ಲದೆ<s n="cnjcoo"/></l><r>विना<s n="cnjcoo"/></r></p></e>
-      <e><p><l>ಮಾತ್ರ<s n="cnjcoo"/></l><r>केवळ<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಮುಂತಾದ<s n="cnjcoo"/></l><r>इत्यादि<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಕಾರಣ<s n="cnjcoo"/></l><r>कारण<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಏಕೆಂದರೆ<s n="cnjcoo"/></l><r>कारण<s n="cnjcoo"/></r></p></e>
@@ -176,17 +184,25 @@
       <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
 
-
       <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तो<s n="det"/><s n="dist"/><s n="mfn"/><s n="pl"/><s n="obl"/>+च<s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
 
 
 
+      <e><p><l>ಅದು<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+
+      <e><p><l>ಅದು<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="gen"/></l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/>+च<s n="gen"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+
+<!-- ಅದು<prn><p3><dist><nt><sg><nom> -->
+
+
       <e><p><l>ನಾನು<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></l><r>मी<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
 
-      <e><p><l>ಇವರು<s n="prn"/><s n="mf"/><s n="pl"/><s n="nom"/><s n="p3"/><s n="prx"/></l><r>हा<s n="prn"/><s n="p3"/><s n="prox"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ಇವ<s n="prn"/><s n="mf"/><s n="pl"/><s n="nom"/><s n="p3"/><s n="prx"/></l><r>हा<s n="prn"/><s n="p3"/><s n="prox"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 
 
-      <e><p><l>ಇದು<s n="prn"/><s n="p3"/><s n="prx"/><s n="nt"/><s n="sg"/><s n="gen"/></l><r>तो<s n="det"/></r></p></e>
+      <e><p><l>ಇದು<s n="prn"/><s n="p3"/><s n="prx"/><s n="nt"/><s n="sg"/><s n="gen"/></l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/>+च<s n="gen"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+
+      <e><p><l>ಇದು<s n="prn"/><s n="p3"/><s n="prx"/><s n="nt"/><s n="sg"/><s n="acc"/></l><r>हा<s n="prn"/><s n="p3"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/>+ला<s n="acc"/></r></p></e>
 
       <e><p><l>ಇದು</l><r>हा</r></p></e>
 
@@ -194,17 +210,18 @@
 
 
 
+      <e><p><l>ಅನೇಕ<s n="prn"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="nom"/></l><r>अनेक<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
 
-      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
 
-    <!-- ADJECTIVES -->
-      <e><p><l>ಹೆಚ್ಚು<s n="adj"/></l><r>अधिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+
+
+      
 
 
     <!-- PRE/POSTPOISTIONS -->
       <e><p><l>ಮೇಲೆ<s n="post"/></l><r>वरती<s n="post"/><s n="adv"/></r></p></e>
-
+      <e><p><l>ರಲ್ಲಿ<s n="post"/></l><r>मधे<s n="post"/><s n="adv"/></r></p></e>
+      <e><p><l>ಬಗ್ಗೆ<s n="post"/></l><r>संबंधी<s n="post"/><s n="adv"/></r></p></e>
 
 
     <!-- DETERMINERS -->
@@ -224,15 +241,20 @@
     <!-- NUMBERS -->      
      <e><p><l>ಒಂದು<s n="num"/></l><r>एक<s n="num"/></r></p></e>
      <e><p><l>ಎರಡು<s n="num"/></l><r>दोन<s n="num"/></r></p></e>
+     <e><p><l>ಮೂರು<s n="num"/></l><r>तीन<s n="num"/></r></p></e>
 
+     <e><p><l>ಮೊದಲ<s n="num"/><s n="sg"/><s n="ord"/></l><r>एक<s n="num"/><s n="ord"/>+<s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
 
      <e><p><l>[0-9]+<s n="num"/></l><r>[0-9]+<s n="num"/></r></p></e>
 
 
-
+     <!-- CASE -->
+     <e><p><l><s n="m"/><s n="sg"/><s n="gen"/></l><r><s n="gen"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+     
+    
     <!-- PUNCTUATIONS -->
      <e r="RL"><p><l>۔<s n="sent"/></l><r>॥<s n="sent"/></r></p></e>
-     <e><p><l>-<s n="sent"/></l><r>-<s n="sent"/></r></p></e>
+     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
      <e><p><l>:<s n="sent"/></l><r>:<s n="sent"/></r></p></e>
      <e><p><l>;<s n="sent"/></l><r>;<s n="sent"/></r></p></e>
      <e><p><l>?<s n="sent"/></l><r>?<s n="sent"/></r></p></e>
@@ -242,7 +264,8 @@
      <e><p><l>\<s n="sent"/></l><r>\<s n="sent"/></r></p></e>
      <e><p><l>"<s n="sent"/></l><r>"<s n="sent"/></r></p></e>
      <e><p><l>،<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-
+     <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+     <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
 
    </section>
 </dictionary>
