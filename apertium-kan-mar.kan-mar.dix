@@ -30,7 +30,7 @@
     <sdef n="post"             c="Postpotion"/>
 
     <sdef n="pers"            c="Personal pronoun"/>
-    <sdef n="ref"             c="Reflexive pronoun"/>
+    <sdef n="refl"             c="Reflexive pronoun"/>
     <sdef n="res"             c="Reciprocal pronoun"/>
     <sdef n="prox"            c="Proximate"/>
     <sdef n="prx"             c="Proximate"/>
@@ -75,6 +75,7 @@
 
     <sdef n="inf"             c="Infinitive"/>
     <sdef n="pres"            c="Present"/>
+    <sdef n="past"            c="Past"/>
     <sdef n="imp"             c="Imperative"/>
     <sdef n="pret"            c="Preterite"/>
     <sdef n="pp"              c="Perfect participle"/>
@@ -157,7 +158,7 @@
       <e><p><l>ಇವತ್ತು<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
       <e><p><l>ಇಲ್ಲ<s n="adv"/></l><r>नाहीत<s n="adv"/><s n="p3"/><s n="mfn"/><s n="pl"/></r></p></e>
       <e><p><l>ನಂತರ<s n="adv"/></l><r>तेंव्हा<s n="adv"/></r></p></e>
-      <e><p><l>ಇಲ್ಲಿ<s n="adv"/></l><r>ಇಲ್ಲಿ<s n="adv"/></r></p></e>
+      <e><p><l>ಇಲ್ಲಿ<s n="adv"/></l><r>येथे<s n="adv"/></r></p></e>
       <e><p><l>ನಲ್ಲಿ<s n="adv"/></l><r>येथे<s n="adv"/></r></p></e> 
       <e><p><l>ಸಾಮಾನ್ಯವಾಗಿ<s n="adv"/></l><r>साधारणपणे<s n="adv"/></r></p></e> 
       <e><p><l>ವಿರುದ್ಧ</l><r>विरुद्ध</r></p></e>
@@ -165,9 +166,13 @@
       <e><p><l>ಈಗ</l><r>आता</r></p></e>
       <e><p><l>ಮತ್ತೆ</l><r>पुन्हा</r></p></e>
       <e><p><l>ಒಟ್ಟು</l><r>एकूण</r></p></e>
-
-
-
+      <e><p><l>ಸಹ</l><r>सह</r></p></e>
+      <e><p><l>ಸಹ</l><r>शिवाय</r></p></e> <!--  -->
+      <e><p><l>ಕೂಡ</l><r>शिवाय</r></p></e>
+      <e><p><l>ಅತಿ</l><r>फारच</r></p></e>
+      <e><p><l>ಬಹಳ</l><r>फारच</r></p></e>
+      
+      
 
     <!-- PRE/POSTPOISTIONS -->
       <e><p><l>ಮೇಲೆ<s n="post"/></l><r>वरती<s n="post"/><s n="adv"/></r></p></e>
@@ -178,7 +183,7 @@
       <e><p><l>ರಿಂದ<s n="post"/></l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ನಿಂದ<s n="post"/></l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ಜೊತೆ<s n="post"/></l><r>सह<s n="post"/><s n="adv"/></r></p></e>
-
+      <e><p><l>ಜೊತೆಗೆ</l><r>सह</r></p></e><!-- jote=pair?? -->
       
       <!-- ADJECTIVES -->
       <e><p><l>ಪ್ರಮುಖ<s n="adj"/></l><r>मुख्य<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
@@ -205,10 +210,13 @@
       <e><p><l>ಆಧುನಿಕ<s n="adj"/></l><r>आधुनिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>  
       <e><p><l>ಸ್ಥಳೀಯ<s n="adj"/></l><r>स्थानिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e><!-- word not in mar --> 
       <e><p><l>ಸಂಯುಕ್ತ<s n="adj"/></l><r>कंपाऊंड<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e><!-- word not in mar --> 
-
+      <e><p><l>ಇತರ<s n="adj"/></l><r>इतर<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e><!-- word not in mar --> 
+      <e><p><l>ಎಲ್ಲಾ<s n="adj"/></l><r>सगळे<s n="adj"/><s n="m"/><s n="pl"/></r></p></e><!-- word not in mar --> 
+      <e><p><l>ಕೇವಲ<s n="adj"/></l><r>केवळ<s n="adj"/></r></p></e>
+      <e><p><l>ಮಾತ್ರ<s n="adj"/></l><r>केवळ<s n="adj"/></r></p></e>
 
       <!-- CONJUCTIONS -->
-      <e><p><l>ಮಾತ್ರ<s n="cnjcoo"/></l><r>केवळ<s n="part"/></r></p></e>
+      
       <e><p><l>ಮತ್ತು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e>
       <e><p><l>ಹಾಗು<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
       <e><p><l>ಹಾಗೂ<s n="cnjcoo"/></l><r>आणि<s n="cnjcoo"/></r></p></e> 
@@ -228,8 +236,10 @@
 
       <!-- PRONOUNS -->
       <e><p><l>ಹಲವಾರು</l><r>अनेक</r></p></e>
+      <e><p><l>ಹಲವು</l><r>अनेक</r></p></e>
 
       
+      <e><p><l>ಅವ<s n="prn"/></l><r>तो<s n="prn"/></r></p></e><!-- General mapping -->
 
       <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -237,6 +247,8 @@
 
       <e><p><l>ಅವ<s n="prn"/><s n="p3"/><s n="dist"/><s n="mf"/><s n="pl"/><s n="gen"/></l><r>तो<s n="det"/><s n="dist"/><s n="mfn"/><s n="pl"/><s n="obl"/>+च<s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
 
+
+      <e><p><l>ಅದು<s n="prn"/></l><r>तो<s n="prn"/></r></p></e><!-- General mapping -->
 
 
       <e><p><l>ಅದು<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>तो<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -263,14 +275,16 @@
 
       <e><p><l>ಅನೇಕ<s n="prn"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="nom"/></l><r>अनेक<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
 
-
+      <e><p><l>ತಾ<s n="prn"/><s n="refl"/><s n="mfn"/></l><r>स्वतः<s n="prn"/><s n="refl"/><s n="mfn"/><s n="sp"/><s n="obl"/></r></p></e>
 
 
       
 <!-- VERBS -->
-
-      <e><p><l>ಇದ್ದಾ<s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-
+      <!-- AUXV -->
+<!--       <e><p><l>ಇರುವ<s n="vaux"/><s n="pres"/><s n="p1"/><s n="m"/><s n="sg"/></l><r>असणे<s n="vaux"/><s n="pres"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> -->
+      <e><p><l>ಇರುವ<s n="vaux"/></l><r>असणे<s n="vaux"/></r></p></e>
+<!--       <e><p><l>ಹೊಂದು<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>असणे<s n="vaux"/><s n="past"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e> -->
+      <e><p><l>ಹೊಂದು<s n="vaux"/></l><r>असणे<s n="vaux"/></r></p></e>
 
 
 
@@ -309,10 +323,16 @@
      <e><p><l>[0-9]+<s n="num"/></l><r>[0-9]+<s n="num"/></r></p></e>
 
 
-     <!-- CASE -->
-     <e><p><l><s n="m"/><s n="sg"/><s n="gen"/></l><r><s n="gen"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-     
-    
+     <!-- CASE   need to +च-->
+
+     <e><p><l>ನ<s n="m"/><s n="sg"/><s n="gen"/></l><r><s n="gen"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+
+     <e><p><l>ರ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+     <e><p><l>ರ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/><s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+     <e><p><l>ರ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
+
+     <e><p><l>ಅನ್ನು<s n="nt"/><s n="sg"/><s n="acc"/></l><r>ला<s n="acc"/></r></p></e>
+
     <!-- PUNCTUATIONS -->
      <e r="RL"><p><l>۔<s n="sent"/></l><r>॥<s n="sent"/></r></p></e>
      <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
@@ -327,6 +347,10 @@
      <e><p><l>،<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
+
+<!-- PARTICLES -->
+     <e><p><l>ಎಂದು<s n="part"/></l><r>म्हणजे<s n="cnjsub"/></r></p></e>
+     <e><p><l>ಎಂಬ<s n="part"/></l><r>म्हणजे<s n="cnjsub"/></r></p></e>
 
    </section>
 </dictionary>
