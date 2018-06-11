@@ -71,7 +71,7 @@
     <sdef n="interr"          c="interrogative"/>
     <sdef n="erg"             c="Obl"/>
     <sdef n="rel"             c="rel"/>
-    <sdef n="hon"     c="Honorific" />
+    <sdef n="hon"             c="Honorific" />
 
 
     <sdef n="dem"             c="Demonstrative"/>
@@ -111,7 +111,8 @@
     <sdef n="rpar"            c="Right parenthesis"/>
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
-    <sdef n="perc"           c="Percentage"/>
+    <sdef n="perc"            c="Percentage"/>
+    <sdef n="eng"             c="English word"/>
 
 
     <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
@@ -180,31 +181,66 @@
       <e><p><l>ಪ್ರದೇಶ<s n="n"/><s n="nt"/></l><r>प्रदेश<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ಪ್ರಮಾಣ<s n="n"/><s n="nt"/></l><r>प्रमाण<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>ಬ್ರಿಟಿಷ್<s n="n"/><s n="mf"/></l><r>ब्रिटिश<s n="n"/><s n="m"/></r></p></e>
+
+      <!-- MONTHS -->
+      <e><p><l>ಜನವರಿ<s n="n"/><s n="nt"/></l><r>जानेवारी<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಫೆಬ್ರವರಿ<s n="n"/><s n="nt"/></l><r>फेब्रुवारी<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಫೆಬ್ರುವರಿ<s n="n"/><s n="nt"/></l><r>फेब्रुवारी<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಮಾರ್ಚ್<s n="n"/><s n="nt"/></l><r>मार्च<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಏಪ್ರಿಲ್<s n="n"/><s n="nt"/></l><r>एप्रिल<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ಮೇ<s n="n"/><s n="nt"/></l><r>मे<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಜೂನ್<s n="n"/><s n="nt"/></l><r>जून<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಜುಲೈ<s n="n"/><s n="nt"/></l><r>जुलै<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಆಗಸ್ಟ್<s n="n"/><s n="nt"/></l><r>ऑगस्ट<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಸೆಪ್ಟೆಂಬರ್<s n="n"/><s n="nt"/></l><r>सप्टेंबर<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಅಕ್ಟೋಬರ್<s n="n"/><s n="nt"/></l><r>ऑक्टोबर<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ನವೆಂಬರ್<s n="n"/><s n="nt"/></l><r>नोव्हेंबर<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಡಿಸೆಂಬರ್<s n="n"/><s n="nt"/></l><r>डिसेंबर<s n="n"/><s n="m"/></r></p></e>
+
+
       <e><p><l>ಬಿಡುಗಡೆ<s n="n"/><s n="nt"/></l><r>सुटका<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ಅಭಿವೃದ್ಧಿ<s n="n"/><s n="nt"/></l><r>विकास<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ಜೀವನ<s n="n"/><s n="nt"/></l><r>जीवन<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>ತಂಡ<s n="n"/><s n="nt"/></l><r>संघ<s n="n"/><s n="nt"/></r></p></e>
       <e><p><l>ಧಾರ್ಮಿಕ<s n="n"/><s n="nt"/></l><r>धार्मिक<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಸರ್ಕಾರ<s n="n"/><s n="nt"/></l><r>सरकार<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಬೆಳೆ<s n="n"/><s n="nt"/></l><r>पीक<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ಮಾಹಿತಿ<s n="n"/><s n="nt"/></l><r>माहिती<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ವ್ಯವಸ್ಥೆ<s n="n"/><s n="nt"/></l><r>व्यवस्था<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ಭಾಗ<s n="n"/><s n="nt"/></l><r>भाग<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಆಡಳಿತ<s n="n"/><s n="nt"/></l><r>शासन<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ಅಧ್ಯಯನ<s n="n"/><s n="nt"/></l><r>अध्ययन<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಕಾನೂನು<s n="n"/><s n="nt"/></l><r>कायदा<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ದಿನ<s n="n"/><s n="nt"/></l><r>दिवस<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಸಂಖ್ಯೆ<s n="n"/><s n="nt"/></l><r>संख्या<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ನೀರಾವರಿ<s n="n"/><s n="nt"/></l><r>शिंपण<s n="n"/><s n="nt"/></r></p></e>
+      <e><p><l>ವ್ಯಾಪಾರ<s n="n"/><s n="nt"/></l><r>व्यवसाय<s n="n"/><s n="m"/></r></p></e>
 
 
 
 
-
-
-
-
+        <!-- !n -->
 
       <e><p><l>ಪುರುಷ<s n="n"/><s n="m"/></l><r>पुरुष<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ಮಾನವ<s n="n"/><s n="m"/></l><r>मानव<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ತಂದೆ<s n="n"/><s n="m"/></l><r>बाप<s n="n"/><s n="m"/></r></p></e>
+
+      <e><p><l>ಮಹಿಳೆ<s n="n"/><s n="f"/></l><r>महिला<s n="n"/><s n="f"/></r></p></e>
+
 
         <!-- PROPER NOUNS -->
 
-      <e><p><l>ಕರ್ನಾಟಕ</l><r>कर्नाटक</r></p></e>
+
+
+
+      <e><p><l>ಕರ್ನಾಟಕ<s n="np"/></l><r>कर्नाटक<s n="np"/></r></p></e>
+      <e><p><l>ವಿಜಯಪುರ<s n="np"/></l><r>विजयपुरी<s n="np"/></r></p></e>
+
       <e><p><l>ಶ್ರೀ</l><r>श्री</r></p></e><!-- np? -->
 
       <e><p><l>ದಕ್ಷಿಣ<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>दक्षिण<s n="np"/><s n="al"/><s n="sg"/></r></p></e><!-- np? -->
       <e><p><l>ಭಾರತ<s n="np"/><s n="top"/></l><r>भारत<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>ಮೈಸೂರು<s n="np"/><s n="top"/></l><r>म्हैसूर<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>ಉತ್ತರ</l><r>उत्तर</r></p></e> <!-- North -->
 
       <e><p><l>ಜೇಮ್ಸ್<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></l><r>जेम्स<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -239,7 +275,12 @@
       <e><p><l>ಅದು<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="gen"/></l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/>+च<s n="gen"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
 
       <e><p><l>ಯಾವ<s n="prn"/><s n="interr"/></l><r>काय<s n="prn"/><s n="interr"/></r></p></e><!-- General mapping -->
-      <e><p><l>ಆತ<s n="prn"/></l><r>तो<s n="prn"/></r></p></e><!-- General mapping !Honorific -->
+      <e><p><l>ಆತ<s n="prn"/></l><r>तो<s n="prn"/></r></p></e><!-- General mapping !Honorific dist -->
+     
+
+
+
+     <e><p><l>ಈತ<s n="prn"/></l><r>हा<s n="prn"/></r></p></e><!-- General mapping !Honorific prox-->
 
 
 <!-- ಅದು<prn><p3><dist><nt><sg><nom> -->
@@ -281,15 +322,20 @@
       <e><p><l>ನಿಂದ<s n="post"/></l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ಜೊತೆ<s n="post"/></l><r>सह<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ಮುಂದೆ<s n="post"/></l><r>पुढे<s n="post"/><s n="adv"/></r></p></e>
-      <e><p><l>ಜೊತೆಗೆ<s n="post"/></l><r>सह</r></p></e><!-- jote=pair?? -->
+      <e><p><l>ಜೊತೆಗೆ<s n="post"/></l><r>सह</r></p></e><!-- jote=pair?? , also in mar व्यतिरिक्त-->
       <e><p><l>ಕುರಿತು<s n="post"/></l><r>विषयी<s n="post"/><s n="adv"/></r></p></e><!-- TBC -->
       <e><p><l>ರಂದು<s n="post"/></l><r>व्या<b/>दिवशी<s n="post"/><s n="adv"/></r></p></e><!-- TBC -->
       <e><p><l>ಹಿಂದೆ<s n="post"/></l><r>मागे<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ಹಿಂದಿನ<s n="post"/></l><r>मागील<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ನಂತರ<s n="post"/></l><r>नंतर<s n="post"/><s n="adv"/></r></p></e>
-      <e><p><l>ಅಲ್ಲದೆ<s n="post"/></l><r>खेरीज<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ನಿಂದ <s n="post"/></l><r>कडून<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ಕೂಡಾ<s n="post"/></l><r>देखील<s n="part"/></r></p></e>
+      <e><p><l>ಪೈಕಿ<s n="post"/></l><r>पैकी<s n="post"/><s n="adv"/></r></p></e>
+      <e><p><l>ಸೇರಿದಂತೆ<s n="post"/></l><r>समावेश<s n="post"/><s n="adv"/></r></p></e>
+      <e><p><l>ಹಾಗೆ<s n="post"/></l><r>तसाच<s n="post"/></r></p></e><!-- तसाच not in mar -->
+      <e><p><l>ಮೊದಲಾದ<s n="post"/></l><r>जसे<s n="post"/></r></p></e><!-- जसे not in mar -->
+
+
 
 
       <!-- ADVERBS -->
@@ -322,9 +368,11 @@
       <e><p><l>ಇತ್ಯಾದಿ<s n="adv"/></l><r>वगैरे<s n="adv"/></r></p></e>
       <e><p><l>ವಿಶೇಷವಾಗಿ<s n="adv"/></l><r>विशेषत:<s n="adv"/></r></p></e>
       <e><p><l>ಬಹುತೇಕ<s n="adv"/></l><r>जवळजवळ<s n="adv"/></r></p></e>
-
-
-
+      <e><p><l>ಆರಂಭಿಕ<s n="adv"/></l><r>लवकर<s n="adv"/></r></p></e>
+      <e><p><l>ಅಲ್ಲದೆ<s n="adv"/></l><r>खेरीज<s n="post"/><s n="adv"/></r></p></e>
+      <e><p><l>ಕೆಲವೊಮ್ಮೆ<s n="adv"/></l><r>कधी<b/>कधी<s n="adv"/></r></p></e>
+      <e><p><l>ಹೇಗೆ<s n="adv"/></l><r>का<s n="adv"/><s n="interr"/></r></p></e><!-- interr in kan? -->
+      <e><p><l>ಮುಖ್ಯವಾಗಿ<s n="adv"/></l><r>महत्वाचे<s n="adv"/></r></p></e><!-- Not in mar -->
 
 <!-- ಹೀಗೆ -->
         <!-- ADV/EMPH -->
@@ -356,11 +404,12 @@
       <e><p><l>ಆಧುನಿಕ<s n="adj"/></l><r>आधुनिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>  
       <e><p><l>ಸ್ಥಳೀಯ<s n="adj"/></l><r>स्थानिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e><!-- word not in mar --> 
       <e><p><l>ಸಂಯುಕ್ತ<s n="adj"/></l><r>कंपाऊंड<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e><!-- word not in mar --> 
-      <e><p><l>ಇತರ<s n="adj"/></l><r>इतर<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e><!-- word not in mar --> 
+      <e><p><l>ಇತರ<s n="adj"/></l><r>इतर<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಎಲ್ಲಾ<s n="adj"/></l><r>सगळा<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>ಎಲ್ಲ<s n="adj"/></l><r>सगळा<s n="adj"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>ಬೇರೆ<s n="adj"/></l><r>अन्य<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಸಣ್ಣ<s n="adj"/></l><r>लहान<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಚಿಕ್ಕ<s n="adj"/></l><r>तरुण<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಇತರೆ<s n="adj"/></l><r>इतर<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಮೇಲಿನ<s n="adj"/></l><r>वरील<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಸಾಮಾಜಿಕ<s n="adj"/></l><r>सामाजिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
@@ -382,8 +431,19 @@
       <e><p><l>ಪ್ರಸಿದ್ಧ<s n="adj"/></l><r>प्रसिद्ध<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಜನಪ್ರಿಯ<s n="adj"/></l><r>लोकप्रिय<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಉಳಿದ<s n="adj"/></l><r>बाकीचे<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
-      <e><p><l>ಹಿರಿಯ<s n="adj"/></l><r>मोठा<s n="adv"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ಹಿರಿಯ<s n="adj"/></l><r>मोठा<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ಬಗೆಯ<s n="adj"/></l><r>प्रकारची<s n="adj"/><s n="mfn"/><s n="sg"/></r></p></e>
+      <e><p><l>ಸಾಂಪ್ರದಾಯಿಕ<s n="adj"/></l><r>सांप्रदायिक<s n="adj"/><s n="mfn"/><s n="sg"/></r></p></e>
+      <e><p><l>ಸಂಬಂಧಿಸಿದಂತೆ<s n="adj"/></l><r>संबंधित<s n="adj"/><s n="mfn"/><s n="sg"/></r></p></e>
+      <e><p><l>ಪ್ರತಿಯೊಂದು<s n="adj"/></l><r>प्रत्येक<s n="adj"/><s n="mfn"/><s n="sg"/></r></p></e><!-- not in mar -->
+      <e><p><l>ಉನ್ನತ<s n="adj"/></l><r>शीर्ष<s n="adj"/><s n="mfn"/><s n="sg"/></r></p></e><!-- not in mar -->
+      <e><p><l>ವಿಶಿಷ್ಟ<s n="adj"/></l><r>विशिष्ट<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
+      <e><p><l>ಬಹು<s n="adj"/></l><r>एअधिक<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
 
+
+
+
+      <!-- !adj -->
 
 
 
@@ -391,6 +451,7 @@
       <e><p><l>ಕೇವಲ<s n="adj"/></l><r>केवळ<s n="adj"/></r></p></e>
       <e><p><l>ಮಾತ್ರ<s n="adj"/></l><r>केवळ<s n="adj"/></r></p></e>
       <e><p><l>ಮಾತ್ರ<s n="adj"/></l><r>मात्र<s n="adj"/></r></p></e>
+
 
 
       <!-- <e><p><l>ಆದರೆ<s n="cnjcoo"/></l><r>पण<s n="cnjcoo"/></r></p></e> particle?-->
@@ -426,12 +487,14 @@
       <e><p><l>ಬರುವ<s n="v"/></l><r>येणे<s n="vblex"/></r></p></e>
       <e><p><l>ನೀಡು<s n="v"/></l><r>देणे<s n="vblex"/></r></p></e>
       <e><p><l>ಪಡೆ<s n="v"/></l><r>प्राप्त<s n="vblex"/></r></p></e>
+      <e><p><l>ಬಳಸು<s n="v"/></l><r>वापरा<s n="vblex"/></r></p></e>
+      <e><p><l>ಕಾಣು<s n="v"/></l><r>पहा<s n="vblex"/></r></p></e>
+
 
 
       <e><p><l>ಇರುವ<s n="vaux"/></l><r>असणे<s n="vaux"/></r></p></e>
       <e><p><l>ಹೊಂದು<s n="vaux"/></l><r>असणे<s n="vaux"/></r></p></e>
       <e><p><l>ಆಗುವ<s n="vaux"/></l><r>होणे<s n="vaux"/></r></p></e>
-
 
     <!-- DETERMINERS -->
       <!-- <e><p><l>ಈ<s n="det"/><s n="p3"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></l><r>हा<s n="det"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e> -->
@@ -480,6 +543,11 @@
      <e><p><l>ರ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/>s<s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
      <e><p><l>ರ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
 
+     <e><p><l>ಗಳ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
+     <e><p><l>ಗಳ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/>s<s n="f"/><s n="pl"/><s n="nom"/></r></p></e>
+     <e><p><l>ಗಳ<s n="mfn"/><s n="pl"/><s n="gen"/></l><r><s n="gen"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>     
+
+
      <e><p><l>ಅನ್ನು<s n="nt"/><s n="sg"/><s n="acc"/></l><r>ला<s n="acc"/></r></p></e>
      <e><p><l>ಗೆ<s n="nt"/><s n="sg"/><s n="dat"/></l><r>ला<s n="dat"/></r></p></e>
 
@@ -515,6 +583,9 @@
      <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
 
 
+     <e><p><l>ನೇ<s n="ord"/></l><r>व्या<s n="ord"/></r></p></e>
+
+
 
      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
@@ -525,6 +596,12 @@
      <e><p><l>ಎಂದು<s n="part"/></l><r>म्हणजे<s n="cnjsub"/></r></p></e>
      <e><p><l>ಎಂಬ<s n="part"/></l><r>म्हणजे<s n="cnjsub"/></r></p></e>
      <e><p><l>ಎಂಬ<s n="part"/></l><r>असा<s n="cnjsub"/></r></p></e>
+
+
+<!-- ENGLISH WORDS -->
+     <e><p><l>the<s n="eng"/></l><r>the</r></p></e>
+     <e><p><l>of<s n="eng"/></l><r>of</r></p></e>
+
 
    </section>
 </dictionary>
