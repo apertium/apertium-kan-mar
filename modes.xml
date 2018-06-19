@@ -13,7 +13,7 @@
       <program name="cg-proc -w">
         <file name="kan-mar.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -u 2 -g $2">
         <file name="kan-mar.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -88,5 +88,36 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="kan-mar-translit" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="kan-mar.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger  -g $2">
+        <file name="mar-kan.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="kan-mar.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b"> 
+        <file name="apertium-kan-mar.mar-kan.t1x"/>
+        <file name="kan-mar.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="kan-mar.autogen.bin"/>
+      </program>
+      <program name="lt-proc -t">
+        <file name="kan-mar.autotra.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="kan-mar.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 </modes>
+
 

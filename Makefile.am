@@ -21,6 +21,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
+	$(PREFIX1).autotra.bin	\
 	$(PREFIX2).automorf.bin	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
@@ -163,6 +164,12 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-validate-postchunk $<
 	apertium-preprocess-transfer $< $@
 
+#################
+## Translit
+#################
+$(PREFIX1).autotra.bin: $(BASENAME).translit.dix
+	apertium-validate-dictionary $(BASENAME).translit.dix
+	lt-comp lr $(BASENAME).translit.dix $@
 ###############################################################################
 ## Postgeneration dictionaries
 ###############################################################################
@@ -172,6 +179,9 @@ $(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
 
 $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 	cp $< $@
+
+
+
 
 ###############################################################################
 ## Distribution
@@ -187,6 +197,7 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX2).t1x	\
 		$(BASENAME).$(PREFIX2).t2x	\
 		$(BASENAME).$(PREFIX2).t3x	\
+		$(BASENAME).translit.dix 	\
 		modes.xml
 
 ###############################################################################
@@ -232,4 +243,5 @@ test: all
 	@echo "house" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
+
 
