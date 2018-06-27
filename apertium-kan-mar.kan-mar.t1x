@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer default="chunk">
   <section-def-cats>
-    <def-cat n="nom">
+    <def-cat n="noun_1">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="noun_gen">
+      <cat-item tags="n.*.*.gen"/>
+    </def-cat>
+    <def-cat n="part_1">
+      <cat-item tags="part"/>
+    </def-cat>
+    <def-cat n="verb_1">
+      <cat-item tags="v.*"/>
+    </def-cat>
+    <def-cat n="prn_1">
+      <cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="prn_gen_hon">
+      <cat-item tags="prn.*.*.gen.*"/>
+    </def-cat>
+    <def-cat n="prn_gen">
+      <cat-item tags="prn.*.*.gen"/>
+    </def-cat>
+    <def-cat n="det_1">
+      <cat-item tags="det.*"/>
+    </def-cat>
+    <def-cat n="vaux_1">
+      <cat-item tags="vaux.*"/>
+    </def-cat>
+    <def-cat n="adv_1">
+      <cat-item tags="adv"/>
+    </def-cat>    
+    <def-cat n="adj_1">
+      <cat-item tags="adj"/>
+    </def-cat> 
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -13,6 +43,45 @@
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
     </def-attr>
+
+    <def-attr n="type_mot">
+      <attr-item tags="n"/>
+      <attr-item tags="det"/>
+      <attr-item tags="adj"/>
+      <attr-item tags="prn"/>
+      <attr-item tags="v"/>
+      <attr-item tags="vblex"/>
+    </def-attr>
+
+    <def-attr n="gender">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="mfn"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="num">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+    </def-attr>
+
+    <def-attr n="case">
+      <attr-item tags="nom"/>
+      <attr-item tags="obl"/>
+      <attr-item tags="acc"/>
+    </def-attr>   
+
+    <def-attr n="person">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>    
+
+    <def-attr n="tone">
+      <attr-item tags="hon"/>
+    </def-attr>  
   </section-def-attrs>
 
   <section-def-vars>
@@ -46,6 +115,92 @@
         </out>
       </action>
     </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="prn_gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="default" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="gen_conv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="det"/>
+              <clip pos="1" side="tl" part="person"/>
+              <clip pos="1" side="tl" part="gender"/>
+              <clip pos="1" side="tl" part="num"/>
+              <lit-tag v="obl"/>
+              <lit v="+"/>
+              <lit v="च"/>
+              <lit-tag v="gen"/>
+              <lit-tag v="m"/>
+              <lit-tag v="sg"/>
+              <lit-tag v="nom"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="prn_gen_hon"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="default" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="gen_hon_conv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="det"/>
+              <clip pos="1" side="tl" part="person"/>
+              <clip pos="1" side="tl" part="gender"/>
+              <clip pos="1" side="tl" part="num"/>
+              <lit-tag v="hon"/>
+              <lit-tag v="obl"/>
+              <lit v="+"/>
+              <lit v="च"/>
+              <lit-tag v="gen"/>
+              <lit-tag v="m"/>
+              <lit-tag v="sg"/>
+              <lit-tag v="nom"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="verb_1"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="default" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="verb__past"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit v="णे"/>
+              <clip pos="1" side="tl" part="type_mot"/>
+              <lit-tag v="past"/>
+              <lit-tag v="perf"/>
+              <lit-tag v="p1"/>
+              <lit-tag v="m"/>
+              <lit-tag v="sg"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
   </section-rules>
 </transfer>
 
