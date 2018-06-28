@@ -16,8 +16,11 @@
     <def-cat n="prn_1">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="prn_rel">
+      <cat-item tags="prn.rel.*"/>
+    </def-cat>
     <def-cat n="prn_gen_hon">
-      <cat-item tags="prn.*.*.gen.*"/>
+      <cat-item tags="prn.*.*.hon.*"/>
     </def-cat>
     <def-cat n="prn_gen">
       <cat-item tags="prn.*.*.gen"/>
@@ -79,13 +82,19 @@
       <attr-item tags="p3"/>
     </def-attr>    
 
-    <def-attr n="tone">
+    <def-attr n="tense_mode">
       <attr-item tags="hon"/>
+      <attr-item tags="rel"/>
+      <attr-item tags="interr"/>
+      <attr-item tags="dist"/> 
+      <attr-item tags="prox"/> 
+      <attr-item tags="perf"/> 
     </def-attr>  
   </section-def-attrs>
 
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="lemma_karna"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -116,7 +125,7 @@
       </action>
     </rule>
 
-
+<!-- RULE-2 -->
     <rule>
       <pattern>
         <pattern-item n="prn_gen"/>
@@ -145,10 +154,11 @@
         </out>
       </action>
     </rule>
-
-    <rule>
+<!-- RULE-3 -->
+<!--     <rule>
       <pattern>
-        <pattern-item n="prn_gen_hon"/>
+        <pattern-item n="noun_1"/>
+        
       </pattern>
       <action>
         <out>
@@ -156,12 +166,77 @@
             <tags>
               <tag><lit-tag v="gen_hon_conv"/></tag>
             </tags>
+            
+
+          </chunk>
+        </out>
+      </action>
+    </rule> -->
+<!-- RULE-4 -->
+<!--     <rule>
+      <pattern>
+        <pattern-item n="noun_1"/>
+        <pattern-item n="verb_1"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="default" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="noun+verb_past"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+
+              <clip pos="2" side="tl" part="type_mot"/>
+              <lit-tag v="perf"/>
+              <lit-tag v="p3"/>
+              <lit-tag v="nt"/>
+              <lit-tag v="sg"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule> -->
+              <!--               <lit v="णे"/> -->
+    <rule>
+      <pattern>
+        <pattern-item n="prn_rel"/>
+        <pattern-item n="noun_1"/>
+        <pattern-item n="prn_gen_hon"/>
+        <pattern-item n="verb_1"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="default" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="rel_prn"/></tag>
+            </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="type_mot"/>
+              <clip pos="1" side="tl" part="tense_mode"/>
+              <clip pos="2" side="tl" part="gender"/>
+              <clip pos="2" side="tl" part="num"/>
+              <clip pos="2" side="tl" part="case"/>
+            </lu>
+            <b/>
+            <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="type_mot"/>
+             <clip pos="2" side="tl" part="gender"/>
+             <clip pos="2" side="tl" part="num"/>
+             <clip pos="2" side="tl" part="case"/>
+            </lu> 
+            <b/>  
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
               <lit-tag v="det"/>
-              <clip pos="1" side="tl" part="person"/>
-              <clip pos="1" side="tl" part="gender"/>
-              <clip pos="1" side="tl" part="num"/>
+              <clip pos="3" side="tl" part="person"/>
+              <clip pos="3" side="tl" part="gender"/>
+              <clip pos="3" side="tl" part="num"/>
               <lit-tag v="hon"/>
               <lit-tag v="obl"/>
               <lit v="+"/>
@@ -171,6 +246,9 @@
               <lit-tag v="sg"/>
               <lit-tag v="nom"/>
             </lu>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>             
+            </lu>         
           </chunk>
         </out>
       </action>
@@ -178,24 +256,79 @@
 
     <rule>
       <pattern>
-        <pattern-item n="verb_1"/>
+        <pattern-item n="det_1"/>
+        <pattern-item n="noun_1"/>
       </pattern>
       <action>
         <out>
           <chunk name="default" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="verb__past"/></tag>
+              <tag><lit-tag v="det_noun"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
-              <lit v="णे"/>
               <clip pos="1" side="tl" part="type_mot"/>
-              <lit-tag v="past"/>
-              <lit-tag v="perf"/>
-              <lit-tag v="p1"/>
-              <lit-tag v="m"/>
-              <lit-tag v="sg"/>
+              <clip pos="1" side="tl" part="tense_mode"/>
+              <clip pos="2" side="tl" part="gender"/>
+              <clip pos="1" side="tl" part="num"/>
+              <clip pos="1" side="tl" part="case"/>
             </lu>
+            <b/>
+            <lu>
+             <clip pos="2" side="tl" part="whole"/>
+            </lu>            
+          </chunk>
+        </out>
+      </action>
+    </rule>    
+
+    <rule>
+      <pattern>
+        <pattern-item n="verb_1"/>
+      </pattern>    
+      <action>
+
+        <choose>
+          <when>
+            <test>
+               <equal>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <lit v="हस्तांदोलन"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="lem"/>
+            </let>
+            <let>
+              <var n="lemma_karna"/>
+              <lit v="करणे"/>
+            </let>
+          </when>          
+        </choose>
+
+        <out>
+          <chunk name="default" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Handshake"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="type_mot"/>
+              <clip pos="1" side="tl" part="gender"/>
+              <clip pos="1" side="tl" part="num"/>
+              <clip pos="1" side="tl" part="case"/>
+            </lu>     
+            <b/>
+            <lu>
+              <var n="lemma_karna"/>
+              <lit-tag v="vblex"/>
+              <lit-tag v="perf"/><!-- NTC -->
+              <clip pos="1" side="tl" part="person"/>
+              <clip pos="1" side="tl" part="gender"/>
+              <clip pos="1" side="tl" part="num"/>
+
+            </lu>                   
           </chunk>
         </out>
       </action>
