@@ -1037,7 +1037,6 @@
 
       <e><p><l>ಹೇಗೆ<s n="adv"/></l><r>का<s n="adv"/><s n="interr"/></r></p></e><!-- interr in kan? -->
       <e><p><l>ಮುಖ್ಯವಾಗಿ<s n="adv"/></l><r>महत्वाचे<s n="adv"/></r></p></e><!-- Not in mar -->
-      <e><p><l>ಇಂದು<s n="adv"/></l><r>आज<s n="adv"/></r></p></e>
       <e><p><l>ಮೊದಲೇ<s n="adv"/></l><r>आधी<s n="post"/><s n="adv"/>+च<s n="emph"/></r></p></e>
       <e><p><l>ಕೊನೆಗೆ<s n="adv"/></l><r>शेवटी<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ಅನಿವಾರ್ಯವಾಗಿ<s n="adv"/></l><r>अनिवार्यपणे<s n="adv"/></r></p></e>
@@ -1472,7 +1471,6 @@
       <e><p><l>ಸಾವಿರಾ<s n="num"/><s n="pl"/></l><r>हजार<s n="num"/></r></p></e>
 
 
-
        <e><p><l>ನೆಯ<s n="ord"/></l><r>ला<s n="dat"/></r></p></e>
 
      <e><p><l>ಮೊದಲ<s n="num"/><s n="sg"/><s n="ord"/></l><r>एक<s n="num"/><s n="ord"/>+<s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1480,7 +1478,21 @@
      <e><p><l>ಪ್ರಥಮ<s n="num"/><s n="ord"/></l><r>एक<s n="num"/><s n="ord"/>+<s n="m"/><s n="sg"/><s n="nom"/></r></p></e><!-- TBC -->
 
 
+    <e><p><l>೦<s n="num"/></l><r>०<s n="num"/></r></p></e>
+    <e><p><l>೧<s n="num"/></l><r>१<s n="num"/></r></p></e>
+    <e><p><l>೨<s n="num"/></l><r>२<s n="num"/></r></p></e>
+    <e><p><l>೩<s n="num"/></l><r>३<s n="num"/></r></p></e>
+    <e><p><l>೪<s n="num"/></l><r>४<s n="num"/></r></p></e>
+    <e><p><l>೫<s n="num"/></l><r>५<s n="num"/></r></p></e>
+    <e><p><l>೬<s n="num"/></l><r>६<s n="num"/></r></p></e>
+    <e><p><l>೭<s n="num"/></l><r>७<s n="num"/></r></p></e>
+    <e><p><l>೮<s n="num"/></l><r>८<s n="num"/></r></p></e>
+    <e><p><l>೬<s n="num"/></l><r>९<s n="num"/></r></p></e>
+
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[೦-೯]+([.,][೦-೯]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <e><re>[a-z]+</re><p><l><s n="eng"/></l><r><s n="eng"/></r></p></e>
+
      <!-- CASE   need to +च-->
      <e><p><l>ವನ್ನು<s n="nt"/><s n="pl"/></l><r>ना<s n="acc"/></r></p></e>
 
