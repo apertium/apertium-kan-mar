@@ -72,7 +72,6 @@
     <sdef n="ins"             c="Instrumental"/>
     <sdef n="loc"             c="Locative"/>
     <sdef n="obl"             c="Obl"/>
-    <sdef n="interr"          c="interrogative"/>
     <sdef n="erg"             c="Obl"/>
     <sdef n="rel"             c="rel"/>
     <sdef n="hon"             c="Honorific" />
@@ -3053,11 +3052,11 @@
       <e><p><l>ಮತ್ತೊಬ್ಬ<s n="prn"/></l><r>एक<s n="prn"/></r></p></e>
       <e><p><l>ಅನೇಕ<s n="prn"/><s n="p3"/></l><r>अनेक<s n="prn"/><s n="p3"/></r></p></e>
       <e><p><l>ಈಕೆ<s n="prn"/><s n="p3"/></l><r>तो<s n="prn"/><s n="p3"/></r></p></e>
-      <e><p><l>ಏನು<s n="prn"/><s n="interr"/></l><r>काय <s n="prn"/><s n="interr"/></r></p></e>
+      <e><p><l>ಏನು<s n="prn"/><s n="itg"/></l><r>काय <s n="prn"/><s n="itg"/></r></p></e>
       <e><p><l>ಕೆಲವು<s n="prn"/><s n="p3"/></l><r>काही<s n="adv"/></r></p></e>
       <e><p><l>ಒಂದ<s n="prn"/><s n="p3"/></l><r>एक<s n="num"/></r></p></e>
       <e><p><l>ಮೂವರು<s n="prn"/><s n="p3"/></l><r>तीन<s n="prn"/></r></p></e>
-      <e><p><l>ಯಾರು<s n="prn"/><s n="p3"/></l><r>कोण<s n="prn"/><s n="interr"/></r></p></e>
+      <e><p><l>ಯಾರು<s n="prn"/><s n="p3"/></l><r>कोण<s n="prn"/><s n="itg"/></r></p></e>
       <e><p><l>ನಾ<s n="prn"/></l><r>मी<s n="prn"/></r></p></e><!-- General mapping -->
       <e><p><l>ನೀ<s n="prn"/><s n="p2"/></l><r>तू<s n="prn"/><s n="p2"/></r></p></e><!-- General mapping -->
       <e><p><l>ಮುಂತಾದ<s n="prn"/></l><r>इत्यादि<s n="prn"/></r></p></e>
@@ -3088,7 +3087,7 @@
 
       <e><p><l>ಅದು<s n="prn"/><s n="p3"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="gen"/></l><r>तो<s n="det"/><s n="dist"/><s n="nt"/><s n="sg"/><s n="obl"/>+च<s n="gen"/><s n="nt"/><s n="pl"/><s n="nom"/></r></p></e>
 
-      <e><p><l>ಯಾವ<s n="prn"/><s n="interr"/></l><r>काय<s n="prn"/><s n="interr"/></r></p></e><!-- General mapping -->
+      <e><p><l>ಯಾವ<s n="prn"/><s n="itg"/></l><r>काय<s n="prn"/><s n="itg"/></r></p></e><!-- General mapping -->
       <e><p><l>ಯಾವ<s n="prn"/><s n="rel"/></l><r>जो<s n="prn"/><s n="rel"/></r></p></e><!-- General mapping -->
 
       <e><p><l>ಆತ<s n="prn"/></l><r>तो<s n="prn"/></r></p></e><!-- General mapping !Honorific dist -->
@@ -3117,7 +3116,7 @@
       <e><p><l>ಇದು<s n="prn"/><s n="p3"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="acc"/></l><r>हा<s n="prn"/><s n="p3"/><s n="prox"/><s n="nt"/><s n="sg"/><s n="obl"/>+ला<s n="acc"/></r></p></e>
 
 
-      <e><p><l>ಕೆಲವು<s n="prn"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="nom"/></l><r>कोण<s n="prn"/><s n="interr"/><s n="mfn"/><s n="sp"/><s n="obl"/>+ने<s n="erg"/></r></p></e><!-- interr?? -->
+      <e><p><l>ಕೆಲವು<s n="prn"/><s n="p3"/><s n="mfn"/><s n="pl"/><s n="nom"/></l><r>कोण<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sp"/><s n="obl"/>+ने<s n="erg"/></r></p></e><!-- itg?? -->
 
 
       <e><p><l>ಅನೇಕ<s n="prn"/><s n="p3"/><s n="mfn"/><s n="sg"/><s n="nom"/></l><r>अनेक<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r></p></e>
@@ -3131,7 +3130,7 @@
    <!-- General maping -->
 
       <e><p><l>ಎಲ್ಲ<s n="prn"/></l><r>तो<s n="prn"/></r></p></e><!-- not in mar -->
-      <e><p><l>ಯಾರು<s n="prn"/><s n="p3"/></l><r>कोण<s n="prn"/><s n="interr"/></r></p></e>
+      <e><p><l>ಯಾರು<s n="prn"/><s n="p3"/></l><r>कोण<s n="prn"/><s n="itg"/></r></p></e>
       <e><p><l>ಸ್ವಯಂ<s n="prn"/><s n="refl"/></l><r>स्वतः<s n="prn"/><s n="refl"/></r></p></e>
       <e><p><l>ಅನ್ಯರು<s n="prn"/><s n="p3"/></l><r>इतर<s n="prn"/></r></p></e>
 
@@ -3242,7 +3241,7 @@
       <e><p><l>ತದನಂತರ<s n="adv"/></l><r>तदनंतर<s n="adv"/></r></p></e>
       <e><p><l>ಸದ್ಯ<s n="adv"/></l><r>सद्य<s n="adv"/></r></p></e>
       <e><p><l>ಸಮೀಪ<s n="adv"/></l><r>समीप<s n="adv"/></r></p></e>
-      <e><p><l>ಇಲ್ಲ<s n="interr"/></l><r>नाही<s n="adv"/></r></p></e>
+      <e><p><l>ಇಲ್ಲ<s n="itg"/></l><r>नाही<s n="adv"/></r></p></e>
       <e><p><l>ಇಲ್ಲದಿದ್ದರೆ<s n="adv"/></l><r>नाहीतर<s n="adv"/></r></p></e>
       <e><p><l>ಬರೀ<s n="adv"/></l><r>केवळ<s n="part"/></r></p></e>
       <e><p><l>ಒಮ್ಮೊಮ್ಮೆ<s n="adv"/></l><r>एकदा<s n="adv"/></r></p></e>
@@ -3299,7 +3298,7 @@
       <e><p><l>ಅಲ್ಲ<s n="neg"/></l><r>नाही<s n="adv"/></r></p></e>    
       <e><p><l>ಇಲ್ಲ<s n="neg"/></l><r>नाही<s n="adv"/><s n="sp"/></r></p></e>        
       <e><p><l>ಇಲ್ಲದ<s n="neg"/></l><r>नाही<s n="adv"/><s n="sp"/></r></p></e>      
-      <e><p><l>ಏಕೆ<s n="adv"/></l><r>का<s n="adv"/><s n="interr"/></r></p></e>
+      <e><p><l>ಏಕೆ<s n="adv"/></l><r>का<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>ಒಟ್ಟೂ<s n="adv"/></l><r>एकूण<s n="adv"/></r></p></e>
       <e><p><l>ಜತೆಗೆ<s n="adv"/></l><r>सह<s n="post"/><s n="adv"/></r></p></e>
       <e><p><l>ಬೇಗನೆ<s n="adv"/></l><r>लवकर<s n="adv"/></r></p></e>
@@ -3392,7 +3391,7 @@
       <e><p><l>ಸರಿಯಾಗಿ<s n="adv"/></l><r>उजवे<s n="adj"/><s n="mfn"/><s n="sp"/></r></p></e>
       <e><p><l>ಸುತ್ತಲಿನ<s n="adv"/></l><r>जवळपास<s n="adv"/></r></p></e>
       <e><p><l>ಹಿಂದಕ್ಕೆ<s n="adv"/></l><r>मागे<s n="post"/><s n="adv"/></r></p></e>
-      <e><p><l>ಹೇಗೆ<s n="adv"/></l><r>का<s n="adv"/><s n="interr"/></r></p></e><!-- interr in kan? -->
+      <e><p><l>ಹೇಗೆ<s n="adv"/></l><r>का<s n="adv"/><s n="itg"/></r></p></e><!-- itg in kan? -->
       <e><p><l>ಮುಖ್ಯವಾಗಿ<s n="adv"/></l><r>महत्वाचे<s n="adv"/></r></p></e><!-- Not in mar -->
       <e><p><l>ಮೊದಲೇ<s n="adv"/></l><r>आधी<s n="post"/><s n="adv"/>+च<s n="emph"/></r></p></e>
       <e><p><l>ಕೊನೆಗೆ<s n="adv"/></l><r>शेवटी<s n="post"/><s n="adv"/></r></p></e>
@@ -4731,8 +4730,8 @@
 
      <e><p><l>ನೇ<s n="ord"/></l><r>व्या<s n="ord"/></r></p></e>
 
-     <e><p><l>ಇಲ್ಲವೇ<s n="interr"/></l><r>किंवा<s n="cnjcoo"/></r></p></e>
-     <e><p><l>ಇಲ್ಲವೆ<s n="interr"/></l><r>किंवा<s n="cnjcoo"/></r></p></e>
+     <e><p><l>ಇಲ್ಲವೇ<s n="itg"/></l><r>किंवा<s n="cnjcoo"/></r></p></e>
+     <e><p><l>ಇಲ್ಲವೆ<s n="itg"/></l><r>किंवा<s n="cnjcoo"/></r></p></e>
 
      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
      <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

@@ -101,7 +101,7 @@
    <def-attr n="pronoun_types">
       <attr-item tags="hon"/>
       <attr-item tags="rel"/>
-      <attr-item tags="interr"/>
+      <attr-item tags="itg"/>
       <attr-item tags="dist"/> 
       <attr-item tags="prox"/> 
     </def-attr>  
