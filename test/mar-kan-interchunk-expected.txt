@@ -1,0 +1,10 @@
+[TA2mXRXTy6_f#0] ^default<default>{^ಜೇಮ್ಸ್<np><ant><m><sg><nom>$}$ ^default<default>{^ಎಲ್ಲಿ<adv>$}$ ^default<default>{^ಆಗಿ<vaux><pres><p1><mf><sg>$}$^sent<SENT>{^?<sent>$}$
+[/TA2mXRXTy6_f]
+[bGT51Sr6cJ1y#0] ^default<default>{^ಹವಾಮಾನ<n><nt><sg><nom>$}$ ^default<default>{^ಇಂದು<adv>$}$ ^default<default>{^ಚನ್ನಗಿ<adj>$}$^default<default>{^,<cm>$}$^default<default>{^ತುಂಬಾ<adj>$}$ ^default<default>{^ಬಿಸಿ<adj>$}$ ^default<default>{^ಆಗಿ<vaux><pres><p1><mf><sg>$}$^sent<SENT>{^.<sent>$}$
+[/bGT51Sr6cJ1y]
+[cQi-obXHkrT6#0] ^default<default>{^ಜೇಮ್ಸ್<np><ant><m><sg><nom>$}$ ^default<default>{^ಹಾಗು<cnjcoo>$}$ ^default<default>{^ಮೇರಿ<np><ant><f><sg><nom><nom>$}$ ^unknown<unknown>{^*बागत$}$ ^default<default>{^ಆಗಿ<vaux><pres><p1><mf><sg>$}$^sent<SENT>{^.<sent>$}$
+[/cQi-obXHkrT6]
+[n3Nu_PHQLwSQ#0] ^default<default>{^ಅವ<prn><corel><m><sg><nom>$}$ ^unknown<unknown>{^*तेंव्हा$}$ ^default<default>{^ಹೊರಗೆ<post>$}$ ^default<default>{^ಆಡು<v><ger><nom>$}$ ^unknown<unknown>{^*शकले$}$ ^default<default>{^ಅಲ್ಲ<neg><p1><pl>$}$^sent<SENT>{^.<sent>$}$
+[/n3Nu_PHQLwSQ]
+[wKZrMQq5Pvfd#0] ^default<default>{^ಆದರೆ<cnjcoo>$}$ ^unknown<unknown>{^*काल$}$ ^default<default>{^ತುಂಬಾ<adj>$}$ ^unknown<unknown>{^*गार$}$ ^default<default>{^ಆಗಿ<vaux><pres><p1><mf><sg>$}$^sent<SENT>{^!<sent>$}$
+[/wKZrMQq5Pvfd]

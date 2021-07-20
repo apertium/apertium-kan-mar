@@ -1,0 +1,10 @@
+[TA2mXRXTy6_f#0] ^जेम्स/जेम्स<np><ant><m><sg><nom>$ ^कुठे/कुठे<adv>$ ^आहे/असणे<vaux><pres><p1><mf><sg>/असणे<vaux><pres><p2><mf><sg>/असणे<vaux><pres><p3><mfn><sg>$^?/?<sent>$
+[/TA2mXRXTy6_f]
+[bGT51Sr6cJ1y#0] ^हवामान/हवामान<n><nt><sg><nom>$ ^आज/आज<adv>$ ^चांगला/चांगला<adj><m><sg>$^,/,<cm>$^खूप/खूप<adj><mfn><sp>/खूप<adj><mfn><sp><obl>$ ^गरम/गरम<adj><mfn><sp>/गरम<adj><mfn><sp><obl>$ ^आहे/असणे<vaux><pres><p1><mf><sg>/असणे<vaux><pres><p2><mf><sg>/असणे<vaux><pres><p3><mfn><sg>$^./.<sent>$
+[/bGT51Sr6cJ1y]
+[cQi-obXHkrT6#0] ^जेम्स/जेम्स<np><ant><m><sg><nom>$ ^आणि/आणि<cnjcoo>$ ^मेरी/मेरी<np><ant><f><sg><nom>/मेरी<np><ant><f><sg><obl>$ ^बागत/*बागत$ ^आहे/असणे<vaux><pres><p1><mf><sg>/असणे<vaux><pres><p2><mf><sg>/असणे<vaux><pres><p3><mfn><sg>$^./.<sent>$
+[/cQi-obXHkrT6]
+[n3Nu_PHQLwSQ#0] ^तो/तो<prn><corel><m><sg><nom>/तो<det><dist><m><sg><nom>/तो<prn><p3><dist><m><sg><nom>$ ^तेंव्हा/*तेंव्हा$ ^बाहेर/बाहेर<post><adv>$ ^खेळणे/खेळणे<vblex><ger><nom>/खेळणे<vblex><ger><acc>/खेळणे<vblex><inf>$ ^शकले/*शकले$ ^नाहीत/नाही<adv><p1><pl>/नाही<adv><p2><pl>/नाही<adv><p3><pl>$^./.<sent>$
+[/n3Nu_PHQLwSQ]
+[wKZrMQq5Pvfd#0] ^पण/पण<cnjcoo>$ ^काल/*काल$ ^खूप/खूप<adj><mfn><sp>/खूप<adj><mfn><sp><obl>$ ^गार/*गार$ ^आहे/असणे<vaux><pres><p1><mf><sg>/असणे<vaux><pres><p2><mf><sg>/असणे<vaux><pres><p3><mfn><sg>$^!/!<sent>$
+[/wKZrMQq5Pvfd]

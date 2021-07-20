@@ -1,0 +1,10 @@
+[TA2mXRXTy6_f#0] ^ಜೇಮ್ಸ್<np><ant><m><sg><nom>$ ^ಎಲ್ಲಿ<adv>$ ^ಆಗಿ<vaux><pres><p1><mf><sg>$^?<sent>$
+[/TA2mXRXTy6_f]
+[bGT51Sr6cJ1y#0] ^ಹವಾಮಾನ<n><nt><sg><nom>$ ^ಇಂದು<adv>$ ^ಚನ್ನಗಿ<adj>$^,<cm>$^ತುಂಬಾ<adj>$ ^ಬಿಸಿ<adj>$ ^ಆಗಿ<vaux><pres><p1><mf><sg>$^.<sent>$
+[/bGT51Sr6cJ1y]
+[cQi-obXHkrT6#0] ^ಜೇಮ್ಸ್<np><ant><m><sg><nom>$ ^ಹಾಗು<cnjcoo>$ ^ಮೇರಿ<np><ant><f><sg><nom><nom>$ ^*बागत$ ^ಆಗಿ<vaux><pres><p1><mf><sg>$^.<sent>$
+[/cQi-obXHkrT6]
+[n3Nu_PHQLwSQ#0] ^ಅವ<prn><corel><m><sg><nom>$ ^*तेंव्हा$ ^ಹೊರಗೆ<post>$ ^ಆಡು<v><ger><nom>$ ^*शकले$ ^ಅಲ್ಲ<neg><p1><pl>$^.<sent>$
+[/n3Nu_PHQLwSQ]
+[wKZrMQq5Pvfd#0] ^ಆದರೆ<cnjcoo>$ ^*काल$ ^ತುಂಬಾ<adj>$ ^*गार$ ^ಆಗಿ<vaux><pres><p1><mf><sg>$^!<sent>$
+[/wKZrMQq5Pvfd]
